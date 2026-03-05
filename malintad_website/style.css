@@ -1,0 +1,137 @@
+body {
+ font-family: Arial, sans-serif; 
+ margin: 0;
+ background: white; 
+}
+
+.link{
+ color: #27472b;
+ font-family: Verdana;
+ text-decoration: none; 
+ justify-content: center;
+ padding:20px 30px;
+ cursor: pointer;
+ transition: 0.3s;
+ text-align: center;
+ font-size: clamp(1.7rem, 1.2vw, 2rem);
+}
+ 
+.link:hover{
+ background: #eea032;
+ transform: scale(1.05);
+ padding: 4px;
+ border-radius: 5px;
+}
+ 
+.hero{
+  background: url('banner.png') no-repeat center center/cover;
+  min-height: 500px;
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text{
+  font-family: Verdana;
+  font-size: 2rem;
+}
+
+.profile-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+ 
+.hero-nav {
+ padding:40px 0;
+ text-align: center;
+ justify-content: center;
+ 
+}
+
+.hello {
+    color:#80EF80;
+    font-family: cursive;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+.pangalan {
+    color: white;
+    font-family: Verdana;
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+ section {
+ padding: 40px; 
+ max-width: 1100px; 
+ margin: auto; 
+ background: white; 
+ margin-top: 20px; 
+ border-radius: 10px;
+ box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+ul li {
+      display: inline-block;
+      text-align: left;
+      margin: 0 15px;
+}
+
+.title {   
+ color: #27472b;
+ }
+
+.activity{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+.btn-warnings{
+    background-color: #27472b;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.btn-warnings:hover{
+    transform: scale(1.05);
+}
+
+.fb-link {
+    text-decoration: none;
+}
+text{
+    text-align: left;
+    padding-left: 32px;
+}
+
+.footer {
+ text-align: center; 
+ padding: 20px; 
+ background: #27472b; 
+ color: white; 
+ margin-top: 20px; 
+}
